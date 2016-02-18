@@ -1,0 +1,58 @@
+'context-menu':
+	'atom-text-editor': [
+		{
+			'label': 'Custom Folds'
+			'submenu': [
+				{
+				  'label': 'Fold Top Level'
+				  'command': 'custom-folds:fold-top-level'
+				},
+				{
+				  'label': 'Fold All'
+				  'command': 'custom-folds:fold-all'
+				},
+				{
+				  'label': 'Unfold All'
+				  'command': 'custom-folds:unfold-all'
+				},
+				{
+				  'label': 'Fold Here'
+				  'command': 'custom-folds:fold-here'
+				},
+				{
+				  'label': 'Unfold Here'
+				  'command': 'custom-folds:unfold-here'
+				}
+			]
+		}
+	]
+'menu': [
+	{
+		'label': 'Packages'
+		'submenu': [
+			'label': 'Custom Folds'
+			'submenu': [
+				{
+				  'label': 'Fold Top Level'
+				  'command': 'custom-folds:fold-top-level'
+				},
+				{
+				  'label': 'Fold All'
+				  'command': 'custom-folds:fold-all'
+				},
+				{
+				  'label': 'Unfold All'
+				  'command': 'custom-folds:unfold-all'
+				},
+				{
+				  'label': 'Fold Here'
+				  'command': 'custom-folds:fold-here'
+				},
+				{
+				  'label': 'Unfold Here'
+				  'command': 'custom-folds:unfold-here'
+				}
+			]
+		]
+	}
+]

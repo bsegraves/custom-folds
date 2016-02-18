@@ -1,0 +1,24 @@
+{
+  "name": "custom-folds",
+  "main": "./lib/index.js",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "keywords": [
+  ],
+  "activationCommands": {
+	"atom-workspace": [
+		"custom-folds:fold-top-level",
+		"custom-folds:fold-all",
+		"custom-folds:unfold-all",
+		"custom-folds:fold-here",
+		"custom-folds:unfold-here"
+	]
+  },
+  "repository": "https://github.com/bsegraves/custom-folds",
+  "license": "MIT",
+  "engines": {
+	"atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}
