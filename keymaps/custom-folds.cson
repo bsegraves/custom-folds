@@ -8,8 +8,8 @@
 # For more detailed documentation see
 # https://atom.io/docs/latest/behind-atom-keymaps-in-depth
 'atom-workspace':
- 'ctrl-shift-{': 'custom-folds:fold-here'
- 'ctrl-shift-}': 'custom-folds:unfold-here'
- 'ctrl-shift-|': 'custom-folds:toggle-fold'
+ 'ctrl-shift-[': 'custom-folds:fold-here'
+ 'ctrl-shift-]': 'custom-folds:unfold-here'
+ 'ctrl-shift-\\': 'custom-folds:toggle-fold'
  'ctrl-alt-shift-[': 'custom-folds:fold-all'
  'ctrl-alt-shift-]': 'custom-folds:unfold-all'
