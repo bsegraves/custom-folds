@@ -22,6 +22,10 @@
 				{
 				  'label': 'Unfold Here'
 				  'command': 'custom-folds:unfold-here'
+				},
+				{
+				  'label': 'Toggle Fold'
+				  'command': 'custom-folds:toggle-fold'
 				}
 			]
 		}
@@ -51,6 +55,10 @@
 				{
 				  'label': 'Unfold Here'
 				  'command': 'custom-folds:unfold-here'
+				},
+				{
+				  'label': 'Toggle Fold'
+				  'command': 'custom-folds:toggle-fold'
 				}
 			]
 		]
