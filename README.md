@@ -16,15 +16,12 @@ The folding is recursive, so you can have regions within regions within regions.
 
 ### Commands
 
-* `cusotm-folds:fold-here` &mdash; Folds the region you're within.
-* `cusotm-folds:unfold-here` &mdash; Unfolds the region you're within.
-* `cusotm-folds:fold-all` &mdash; Folds all regions recursively.
-* `cusotm-folds:unfold-all` &mdash; Unfolds all regions.
-* `cusotm-folds:fold-top-level` &mdash; Only fold the outer regions.
-
-### Keybindings
-
-Keybindings have not been set for this package. They can easily be added by referencing the commands listed above.
+* `custom-folds:fold-here` (ctrl-shift-[) &mdash; Folds the region you're within.
+* `custom-folds:unfold-here` (ctrl-shift-]) &mdash; Unfolds the region you're within.
+* `custom-folds:fold-all` (ctrl-alt-shift-[) &mdash; Folds all regions recursively.
+* `custom-folds:unfold-all` (ctrl-alt-shift-]) &mdash; Unfolds all regions.
+* `custom-folds:fold-top-level` &mdash; Only fold the outer regions.
+* `custom-folds:toggle-fold` (ctrl-alt-\\) &mdash; Toggle folding at the cursor position.
 
 ## Coming Soon
 
