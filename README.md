@@ -14,7 +14,9 @@ But you don't need to be working with people that insist on using WebStorm. You 
 
 The folding is recursive, so you can have regions within regions within regions.
 
-Special highlighting of these foldable tags is also enabled by default. This can be easily disabled from the package's Settings screen.
+Highlighting of these foldable tags is also enabled by default. This can be easily disabled from the package's Settings screen.
+
+![Image of highlighting](https://github.com/bsegraves/custom-folds/raw/master/highlight.png)
 
 ### Commands
 
