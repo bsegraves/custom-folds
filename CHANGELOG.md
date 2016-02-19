@@ -1,3 +1,3 @@
-## 0.1.0 - First Release
-* Every feature added
-* Every bug fixed
+## 1.3.0
+Added optional flag for experimental highlighting of folding tags. Folded tags use the @text-color-info color.
+Added tags to project.

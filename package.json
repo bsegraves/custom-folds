@@ -4,22 +4,15 @@
   "version": "1.2.1",
   "description": "Define custom tags for defining foldable blocks of code.",
   "keywords": [
-    "fold"
+	"fold",
+	"WebStorm",
+	"#region",
+	"editor-fold"
   ],
-  "activationCommands": {
-    "atom-workspace": [
-      "custom-folds:fold-top-level",
-      "custom-folds:fold-all",
-      "custom-folds:unfold-all",
-      "custom-folds:fold-here",
-      "custom-folds:unfold-here",
-      "custom-folds:toggle-fold"
-    ]
-  },
   "repository": "https://github.com/bsegraves/custom-folds",
   "license": "MIT",
   "engines": {
-    "atom": ">=1.0.0 <2.0.0"
+	"atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {}
 }

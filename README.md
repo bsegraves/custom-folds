@@ -10,9 +10,11 @@ In the plugin's settings, you can define custom text that identifies the start a
 
 By default, the text `// <editor-fold` identifies the start of a foldable region and `// </editor-fold>` marks the end of the region. These default settings were only chosen because the author works on a team where a few "special" engineers insist on using JetBrain's WebStorm IDE. These tags allow both sets of engineers (those using Atom and those using WebStorm) to have the same foldable regions of code.
 
-But you don't need to be working with people that insist on using WebStorm. You can configure the starting and ending tags to whatever you want to create your own, custom, collapsible regions.
+But you don't need to be working with people that insist on using WebStorm. You can configure the starting and ending tags to whatever you want. This allows you to create your own, custom, collapsible regions.
 
 The folding is recursive, so you can have regions within regions within regions.
+
+Special highlighting of these foldable tags is also enabled by default. This can be easily disabled from the package's Settings screen.
 
 ### Commands
 
@@ -26,7 +28,6 @@ The folding is recursive, so you can have regions within regions within regions.
 ## Coming Soon
 
 * Regex support
-* Custom highlighting of foldable regions
 * Clickable region headers
 
 ## License

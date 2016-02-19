@@ -4,5 +4,26 @@
 // for a full listing of what's available.
 @import "ui-variables";
 
-.custom-folds {
+atom-text-editor::shadow {
+	.custom-folds-start {
+		.source {
+			// > span:not(.leading):not(.leading-whitespace):not(.whitespace),
+			.comment.definition,
+			.comment.line {
+				color: @text-color-info;
+				border-top: 1px solid @text-color-info;
+			}
+		}
+	}
+
+	.custom-folds-stop {
+		.source {
+			// > span:not(.leading):not(.leading-whitespace):not(.whitespace),
+			.comment.definition,
+			.comment.line {
+				color: @text-color-info;
+				border-bottom: 1px solid @text-color-info;
+			}
+		}
+	}
 }
