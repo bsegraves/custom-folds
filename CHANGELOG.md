@@ -1,3 +1,6 @@
+## 1.5.0
+Added a setting to automatically fold a file on load. Defaults to false.
+
 ## 1.3.1
 Updated README.md with screenshot.
 Added author's name to LICENSE.md.

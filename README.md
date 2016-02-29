@@ -18,6 +18,8 @@ Highlighting of these foldable tags is also enabled by default. This can be easi
 
 ![Image of highlighting](https://github.com/bsegraves/custom-folds/raw/master/highlight.png)
 
+There is also an option to auto-fold files on load. This can be enabled from the package's settings.
+
 ### Commands
 
 * `custom-folds:fold-here` (ctrl-shift-[) &mdash; Folds the region you're within.
