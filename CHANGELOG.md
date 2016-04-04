@@ -1,4 +1,7 @@
-## 1.5.3
+## 1.6.1
+Updated the descriptions for the settings. Updated README.md and CHANGELOG.md (to reflect that the last version was acutally 1.6.0 and not 1.5.3).
+
+## 1.6.0
 Removed the need to add comment characters in the settings for the beginning and end of foldable regions.
 Added code to retrieve current grammars comment style to allow for language agnostic region comments.
 Added .text selector to stylesheet to enable colorization on html files.
