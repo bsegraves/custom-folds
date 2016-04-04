@@ -1,4 +1,4 @@
-## 1.6.1
+## 1.6.3
 Updated the descriptions for the settings. Updated README.md and CHANGELOG.md (to reflect that the last version was acutally 1.6.0 and not 1.5.3).
 
 ## 1.6.0
