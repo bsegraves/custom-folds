@@ -1,7 +1,7 @@
 {
   "name": "custom-folds",
   "main": "./lib/index.js",
-  "version": "1.6.0",
+  "version": "1.6.1",
   "description": "Define custom tags for defining foldable blocks of code.",
   "keywords": [
     "fold",
