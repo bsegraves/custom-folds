@@ -1,3 +1,8 @@
+## 1.5.3
+Removed the need to add comment characters in the settings for the beginning and end of foldable regions.
+Added code to retrieve current grammars comment style to allow for language agnostic region comments.
+Added .text selector to stylesheet to enable colorization on html files.
+
 ## 1.5.2
 Find-in-Files works again when 'auto fold on file load' is enabled. Yeah, that was a bad bug.
 

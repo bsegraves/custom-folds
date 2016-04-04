@@ -6,8 +6,9 @@
 
 atom-text-editor::shadow {
 	.custom-folds-start {
-		.source {
+		.source, .text {
 			// > span:not(.leading):not(.leading-whitespace):not(.whitespace),
+			.comment.block,
 			.comment.definition,
 			.comment.line {
 				color: @text-color-info;
@@ -17,8 +18,9 @@ atom-text-editor::shadow {
 	}
 
 	.custom-folds-stop {
-		.source {
+		.source, .text {
 			// > span:not(.leading):not(.leading-whitespace):not(.whitespace),
+			.comment.block,
 			.comment.definition,
 			.comment.line {
 				color: @text-color-info;
