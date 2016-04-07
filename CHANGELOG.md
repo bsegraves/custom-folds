@@ -1,3 +1,6 @@
+## 1.6.4
+Added a sleep to fix the 'fold on load' option no longer working with the latest version of Atom. Just a temporary solution until I can figure out the proper way of knowing when it's safe to fold regions.
+
 ## 1.6.3
 Updated the descriptions for the settings. Updated README.md and CHANGELOG.md (to reflect that the last version was acutally 1.6.0 and not 1.5.3).
 

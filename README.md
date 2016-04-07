@@ -29,6 +29,17 @@ There is also an option to auto-fold files on load. This can be enabled from the
 * `custom-folds:fold-top-level` &mdash; Only fold the outer regions.
 * `custom-folds:toggle-fold` (ctrl-alt-\\) &mdash; Toggle folding at the cursor position.
 
+## Tips
+
+Personally I use the following snippet for creating new foldable regions.
+
+```json
+"editor-fold":
+	"prefix": "// e"
+	"body": "// <editor-fold desc='$1'>\n// </editor-fold>"`
+```
+
+
 ## Coming Soon
 
 * Multiple region tags.
