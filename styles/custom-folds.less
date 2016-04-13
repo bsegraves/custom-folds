@@ -13,6 +13,10 @@ atom-text-editor::shadow {
 			.comment.line {
 				color: @text-color-info;
 				border-top: 1px solid @text-color-info;
+
+				.leading-whitespace {
+					border-top: 1px solid @pane-item-background-color;
+				}
 			}
 		}
 	}
@@ -25,6 +29,10 @@ atom-text-editor::shadow {
 			.comment.line {
 				color: @text-color-info;
 				border-bottom: 1px solid @text-color-info;
+
+				.leading-whitespace {
+					border-bottom: 1px solid @pane-item-background-color;
+				}
 			}
 		}
 	}
