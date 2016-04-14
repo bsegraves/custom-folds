@@ -1,3 +1,9 @@
+## 1.6.6
+Fixed keyboard shortcuts listed in README.md.
+
+## 1.6.5
+For some syntaxes, such as Babel ES6, the leading whitespace was being underlined. This should now be fixed.
+
 ## 1.6.4
 Added a sleep to fix the 'fold on load' option no longer working with the latest version of Atom. Just a temporary solution until I can figure out the proper way of knowing when it's safe to fold regions.
 

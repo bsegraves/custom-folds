@@ -27,7 +27,7 @@ There is also an option to auto-fold files on load. This can be enabled from the
 * `custom-folds:fold-all` (ctrl-alt-shift-[) &mdash; Folds all regions recursively.
 * `custom-folds:unfold-all` (ctrl-alt-shift-]) &mdash; Unfolds all regions.
 * `custom-folds:fold-top-level` &mdash; Only fold the outer regions.
-* `custom-folds:toggle-fold` (ctrl-alt-\\) &mdash; Toggle folding at the cursor position.
+* `custom-folds:toggle-fold` (ctrl-shift-\\) &mdash; Toggle folding at the cursor position.
 
 ## Tips
 
