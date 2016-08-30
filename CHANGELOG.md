@@ -1,3 +1,6 @@
+## 1.6.7
+Foldable regions no longer require a space, so "//#region" now works.
+
 ## 1.6.6
 Fixed keyboard shortcuts listed in README.md.
 
