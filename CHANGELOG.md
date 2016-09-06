@@ -1,3 +1,6 @@
+## 1.8.1
+Fixed bug where foldable regions would sometimes not be highlighted during initial file load.
+
 ## 1.8.0
 Added support for up to three different region tag pairs.
 
