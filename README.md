@@ -39,11 +39,6 @@ Personally I use the following snippet for creating new foldable regions.
 	"body": "// <editor-fold desc='$1'>\n// </editor-fold>"`
 ```
 
-
-## Coming Soon
-
-* Multiple region tags.
-
 ## License
 
 See [LICENSE](https://github.com/bsegraves/custom-folds/blob/master/LICENSE.md) for details.

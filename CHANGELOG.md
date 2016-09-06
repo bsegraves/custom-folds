@@ -1,3 +1,6 @@
+## 1.8.0
+Added support for up to three different region tag pairs.
+
 ## 1.7.0
 0tho added gutter icon for foldable regions.
 
