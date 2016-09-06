@@ -1,3 +1,9 @@
+## 1.7.0
+0tho added gutter icon for foldable regions.
+
+## 1.6.8
+Fixed bug where end tag was being displayed on fold instead of start tag.
+
 ## 1.6.7
 Foldable regions no longer require a space, so "//#region" now works.
 

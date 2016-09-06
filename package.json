@@ -1,7 +1,7 @@
 {
   "name": "custom-folds",
   "main": "./lib/index.js",
-  "version": "1.6.7",
+  "version": "1.7.0",
   "description": "Define custom tags for defining foldable blocks of code.",
   "keywords": [
     "fold",
@@ -14,5 +14,7 @@
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "atom-space-pen-views": "^2.0.5"
+  }
 }
