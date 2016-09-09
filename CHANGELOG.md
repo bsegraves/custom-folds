@@ -1,4 +1,4 @@
-## 1.8.2
+## 1.8.3
 Fixed bug where in calculating foldable region.
 
 ## 1.8.1
