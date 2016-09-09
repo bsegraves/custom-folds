@@ -1,3 +1,6 @@
+## 1.8.2
+Fixed bug where in calculating foldable region.
+
 ## 1.8.1
 Fixed bug where foldable regions would sometimes not be highlighted during initial file load.
 
