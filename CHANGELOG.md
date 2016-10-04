@@ -1,3 +1,6 @@
+## 1.8.4
+Gutter icons only show on hover, matching other foldable regions.
+
 ## 1.8.3
 Fixed bug where in calculating foldable region.
 
