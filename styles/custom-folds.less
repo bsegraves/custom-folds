@@ -37,7 +37,13 @@ atom-text-editor::shadow {
 		}
 	}
 
-	.gutter .line-number.custom-folds-start .icon-right {
-	  visibility: visible;
+	.gutter:hover {
+		.line-number.custom-folds-start .icon-right {
+			visibility: visible;
+
+			&:hover {
+				opacity: 1;
+			}
+		}
 	}
 }
