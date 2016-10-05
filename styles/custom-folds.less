@@ -7,7 +7,6 @@
 atom-text-editor::shadow {
 	.custom-folds-start {
 		.source, .text {
-			// > span:not(.leading):not(.leading-whitespace):not(.whitespace),
 			.comment.block,
 			.comment.definition,
 			.comment.line {
@@ -19,11 +18,20 @@ atom-text-editor::shadow {
 				}
 			}
 		}
+
+		.text.plain {
+			color: @text-color-info;
+			border-top: 1px solid @text-color-info;
+
+			&.leading-whitespace,
+			.leading-whitespace {
+				border-top: 1px solid @pane-item-background-color;
+			}
+		}
 	}
 
 	.custom-folds-stop {
 		.source, .text {
-			// > span:not(.leading):not(.leading-whitespace):not(.whitespace),
 			.comment.block,
 			.comment.definition,
 			.comment.line {
@@ -33,6 +41,16 @@ atom-text-editor::shadow {
 				.leading-whitespace {
 					border-bottom: 1px solid @pane-item-background-color;
 				}
+			}
+		}
+
+		.text.plain {
+			color: @text-color-info;
+			border-bottom: 1px solid @text-color-info;
+
+			&.leading-whitespace,
+			.leading-whitespace {
+				border-bottom: 1px solid @pane-item-background-color;
 			}
 		}
 	}

@@ -1,3 +1,6 @@
+## 1.9.0
+Adds support for text files.
+
 ## 1.8.4
 Gutter icons only show on hover, matching other foldable regions.
 
