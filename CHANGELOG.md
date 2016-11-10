@@ -1,3 +1,8 @@
+## 1.9.1
+Fixes bug where gutter icon would not function if region highlighting were disabled.
+Fixes bug with the Toggle Fold and Fold Here functions and nested regions.
+Fixes bug with cursor offset when folding a region - now your cursor remains on the line so you can toggle back and forth without having to reposition the cursor.
+
 ## 1.9.0
 Adds support for text files.
 
