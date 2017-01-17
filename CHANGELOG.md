@@ -1,3 +1,6 @@
+## 1.9.2
+Fixes deprecations introduced with atom 1.13.
+
 ## 1.9.1
 Fixes bug where gutter icon would not function if region highlighting were disabled.
 Fixes bug with the Toggle Fold and Fold Here functions and nested regions.

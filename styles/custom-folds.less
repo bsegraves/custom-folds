@@ -4,52 +4,52 @@
 // for a full listing of what's available.
 @import "ui-variables";
 
-atom-text-editor::shadow {
+atom-text-editor {
 	.custom-folds-start:not(.no-highlight) {
-		.source, .text {
-			.comment.block,
-			.comment.definition,
-			.comment.line {
+		.syntax--source, .syntax--text {
+			.syntax--comment.syntax--block,
+			.syntax--comment.syntax--definition,
+			.syntax--comment.syntax--line {
 				color: @text-color-info;
 				border-top: 1px solid @text-color-info;
 
-				.leading-whitespace {
+				.syntax--leading-whitespace {
 					border-top: 1px solid @pane-item-background-color;
 				}
 			}
 		}
 
-		.text.plain {
+		.syntax--text.syntax--plain {
 			color: @text-color-info;
 			border-top: 1px solid @text-color-info;
 
-			&.leading-whitespace,
-			.leading-whitespace {
+			&.syntax--leading-whitespace,
+			.syntax--leading-whitespace {
 				border-top: 1px solid @pane-item-background-color;
 			}
 		}
 	}
 
 	.custom-folds-stop:not(.no-highlight) {
-		.source, .text {
-			.comment.block,
-			.comment.definition,
-			.comment.line {
+		.syntax--source, .syntax--text {
+			.syntax--comment.syntax--block,
+			.syntax--comment.syntax--definition,
+			.syntax--comment.syntax--line {
 				color: @text-color-info;
 				border-bottom: 1px solid @text-color-info;
 
-				.leading-whitespace {
+				.syntax--leading-whitespace {
 					border-bottom: 1px solid @pane-item-background-color;
 				}
 			}
 		}
 
-		.text.plain {
+		.syntax--text.syntax--plain {
 			color: @text-color-info;
 			border-bottom: 1px solid @text-color-info;
 
-			&.leading-whitespace,
-			.leading-whitespace {
+			&.syntax--leading-whitespace,
+			.syntax--leading-whitespace {
 				border-bottom: 1px solid @pane-item-background-color;
 			}
 		}
