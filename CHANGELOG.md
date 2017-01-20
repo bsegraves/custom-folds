@@ -1,3 +1,6 @@
+## 1.9.3
+Fixes hack for waiting for file to fully load.
+
 ## 1.9.2
 Fixes deprecations introduced with atom 1.13.
 
