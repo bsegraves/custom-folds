@@ -1,3 +1,7 @@
+## 1.9.4
+Fixes deprecation warning.
+Fixes error when preview file and have 'auto-fold' enabled.
+
 ## 1.9.3
 Fixes hack for waiting for file to fully load.
 
