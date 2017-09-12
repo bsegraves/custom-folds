@@ -1,3 +1,6 @@
+## 1.9.5
+Fixes bug with latest version of atom where atom would process the gutter icon click before this plugin.
+
 ## 1.9.4
 Fixes deprecation warning.
 Fixes error when preview file and have 'auto-fold' enabled.
