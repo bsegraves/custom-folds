@@ -8,9 +8,9 @@ This plugin was inspired by Visual Studio's treatment of C#'s `#region` tags.
 
 In the plugin's settings, you can define custom text that identifies the start and end of a foldable section of code.
 
-By default, a comment starting with `<editor-fold` identifies the start of a foldable region and another comment starting with `</editor-fold>` marks the end of that region. These default settings were only chosen because the author works on a team where a few "special" engineers insist on using JetBrain's WebStorm IDE. These tags allow both sets of engineers (those using Atom and those using WebStorm) to have the same foldable regions of code.
+By default, a comment starting with `<editor-fold` identifies the start of a foldable region and another comment starting with `</editor-fold>` marks the end of that region. These default settings were only chosen because the author works on a team where a few "special" engineers insist on using JetBrain's WebStorm IDE. These tags allow both sets of engineers (those using Atom and those using WebStorm) to have the same foldable regions of code. `<editor-fold` is also the default in NetBeans.
 
-But you don't need to be working with people that insist on using WebStorm. You can configure the starting and ending tags to whatever you want. This allows you to create your own, custom, collapsible regions.
+But if you don't need to be working with people that insist on using WebStorm, you can configure the starting and ending tags to whatever you want. This allows you to create your own, custom, collapsible regions.
 
 The folding is recursive, so you can have regions within regions within regions.
 
